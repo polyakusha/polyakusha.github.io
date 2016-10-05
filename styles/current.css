@@ -23,7 +23,7 @@ html {
 }
 
 .content a {
-    border-bottom: 1px solid #66b6e8;
+    border-bottom: 1px solid #6b0723;
 }
 
 
@@ -33,11 +33,11 @@ html {
 }
 
 .content a:hover {
-    border-bottom: 1px solid #66b6e8;
+    border-bottom: 1px solid #6b0723;
 }
 
 a {
-    color: #66b6e8;
+    color: #6b0723;
 }
 
 
