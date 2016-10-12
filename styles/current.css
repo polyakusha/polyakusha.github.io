@@ -40,4 +40,6 @@ a {
     color: #6b0723;
 }
 
-
+.userpic {
+    border-radius: 15% 50% 30% 25%;
+}
