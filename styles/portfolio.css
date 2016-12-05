@@ -15,7 +15,7 @@ nav.nav {
 }
 
 .hero {
-    background-image: url("https://scontent-frt3-1.xx.fbcdn.net/t31.0-8/14889923_10209693150899668_7686054105582713966_o.jpg") !important;
+    background-image: url("../img/background.jpg") !important;
     background-attachment: fixed !important;
     background-position: 90% 85% !important;
     text-shadow: 10px 10px 20px black, 2em 5em 2em black;
