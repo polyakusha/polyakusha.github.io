@@ -17,8 +17,8 @@ nav.nav {
 .hero {
     background-image: url("../img/background.jpg") !important;
     background-attachment: fixed !important;
-    background-position: 90% 85% !important;
-    text-shadow: 10px 10px 20px black, 2em 5em 2em black;
+    background-position: 25% 75% !important;
+    text-shadow: 5px 1px 10px white;
 }
 
 .card-footer img {
