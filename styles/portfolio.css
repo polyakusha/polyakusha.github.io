@@ -14,10 +14,11 @@ nav.nav {
     width: 90%;
 }
 
-.about {
-    background-image: url("https://drscdn.500px.org/photo/175361701/m%3D900/d105bf99e36d68aa65c2c281678d572f");
-    background-attachment: fixed;
-    background-position: center !important;
+.hero {
+    background-image: url("https://scontent-frt3-1.xx.fbcdn.net/t31.0-8/14889923_10209693150899668_7686054105582713966_o.jpg") !important;
+    background-attachment: fixed !important;
+    background-position: 90% 85% !important;
+    text-shadow: 10px 10px 20px black, 2em 5em 2em black;
 }
 
 .card-footer img {
