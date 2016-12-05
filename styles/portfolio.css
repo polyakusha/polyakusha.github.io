@@ -1,0 +1,31 @@
+.mainMenu {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 3;
+}
+
+nav.nav {
+    background: rgba(228, 228, 228);
+    z-index: 99;
+}
+
+.card {
+    width: 90%;
+}
+
+.about {
+    background-image: url("https://drscdn.500px.org/photo/175361701/m%3D900/d105bf99e36d68aa65c2c281678d572f");
+    background-attachment: fixed;
+    background-position: center !important;
+}
+
+.card-footer img {
+    /*height: 30px;*/
+    width: 20px;
+    opacity: 0.8;
+}
+
+.card-footer-item:not(:last-child) {
+    border-right: 0 !important;
+}
