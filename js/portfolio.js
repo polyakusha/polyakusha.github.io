@@ -24,6 +24,22 @@ $(document).ready(function() {
         loop: true
     });
 
+    $("#lightSlider4").lightSlider({
+        item: 1,
+        thumbItem: 0,
+        gallery: false,
+        pager: false,
+        loop: true
+    });
+
+    $("#lightSlider5").lightSlider({
+        item: 1,
+        thumbItem: 0,
+        gallery: false,
+        pager: false,
+        loop: true
+    });
+
     //меню
     //$('.nav-scroll').click(function () {
     //    $('.nav-scroll').removeClass('wearehere');
