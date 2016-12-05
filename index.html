@@ -2,68 +2,486 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <title>Sergey Poliakov - Digital Creative</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="styles/bulma.css">
-    <link rel="stylesheet" href="styles/current.css">
+    <link rel="stylesheet" href="styles/lightslider.css">
+    <link rel="stylesheet" href="styles/portfolio.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-    <title>Sergey Poliakov - web-design and photography</title>
+    <script type="text/javascript" src="js/jquery-2.x-git.min.js"></script>
+    <script type="text/javascript" src="js/lightslider.js"></script>
+    <script type="text/javascript" src="js/portfolio.js"></script>
     <script type="text/javascript" src="js/google.js"></script>
 </head>
 <body>
-<div class="gradient">
-    <section class="hero is-fullheight hello">
-        <div class="hero-body">
-            <div class="container">
-                <div class="columns">
-                    <div class="column is-10 is-offset-1">
-                        <h1 class="title is-2">
-                            Sergey Poliakov
-                        </h1>
-                    </div>
-                </div>
-                <div class="columns">
-                    <div class="column is-5 is-offset-1">
-                        <h3 class="subtitle is-4">
-                            Digital creative
-                        </h3>
-                        <div class="content">
-                            <p>Web-design & front-end development</p>
-                            <p><strong>Current projects:</strong></p>
-                            <p><a href="http://www.saintp.info" target="_blank">www.saintp.info</a></p>
-                            <p><a href="http://www.olgakling.de" targe="_blank">www.olgakling.de</a></p>
-                            <p><a href="http://www.bucharestcity.info/" targe="_blank">www.bucharestcity.info/</a></p>
-                            <br>
-                            <p><strong>GitHub:</strong> <a href="https://github.com/polyakusha">github.com/polyakusha</a></p>
-                        </div>
-                    </div>
+<!-- Navigation -->
+<!--<nav class="nav mainMenu">-->
+    <!--<div class="nav-left">-->
+        <!--<a class="nav-item" href="#">-->
+            <!--Sergey Poliakov-->
+        <!--</a>-->
+    <!--</div>-->
 
-                    <div class="column is-5">
-                        <h3 class="subtitle is-4">
-                            Photography
-                        </h3>
+    <!--<div class="nav-center">-->
+        <!--<a class="nav-item" href="#about">-->
+            <!--About-->
+        <!--</a>-->
+        <!--<a class="nav-item" href="#portfolio">-->
+            <!--Portfolio-->
+        <!--</a>-->
+        <!--<a class="nav-item" href="#contact">-->
+            <!--Contact-->
+        <!--</a>-->
+    <!--</div>-->
+<!--</nav>-->
+
+<!-- About -->
+<section class="hero is-medium is-danger about" id="about">
+    <div class="hero-body">
+        <div class="container">
+            <h1 class="title">
+                Sergey Poliakov
+            </h1>
+            <h2 class="subtitle">
+                <strong>Digital creative</strong> form Saint-Petersburg, Russia. Currently based in Bucharest, Romania.
+            </h2>
+            <p class="subtitle">
+                I create web projects, shoot photos and draw cartoons
+            </p>
+        </div>
+    </div>
+</section>
+
+<!-- Portfolio web-->
+<section class="section" id="portfolio">
+    <div class="container">
+        <div class="columns">
+            <div class="column is-two-thirds">
+                <div class="content">
+                    <p>
+                        I am holding a Bachelor’s and Master’s degree in Journalism, which taught me creativity and curiosity.
+                    </p>
+                    <p>
+                        Understanding that Journalism isn’t my way to go, I have decided to acquire business skills through practical experience.
+                        The aim to understand how to promote my ideas online, led me to go successfully through a retraining program as a web-developer.
+                    </p>
+                    <p>
+                        Summarized, this makes me a curious & creative web-developer with practical business knowledge, looking for an opportunity to develop gathered skills.
+                    </p>
+                    <p>For code examples check out out my <a href="https://github.com/polyakusha">GitHub</a>,
+                        <a href="http://codepen.io/sergeypoliakov/">CodePen</a> and <a href="https://www.freecodecamp.com/polyakusha">freeCodeCamp</a>.</p>
+                </div>
+            </div>
+            <div class="column is-one-third">
+                <div class="card is-fullwidth">
+                    <div class="card-image">
+                        <figure class="image is-16by9">
+                            <img src="img/saintp.jpg" alt="Welcome to Saint-Petersburg">
+                        </figure>
+                    </div>
+                    <div class="card-content">
                         <div class="content">
-                            <p>Street, architecture, landscape and portrait photography</p>
-                            <p><strong>Portfolio:</strong></p>
-                            <p><a href="https://500px.com/sergeypoliakov">500px.com/sergeypoliakov</a></p>
-                            <p><strong>Media about me:</strong></p>
-                            <p><a href="http://calvertjournal.com/news/show/6829">The Calvert Journal</a></p>
+                            <h3>Welcome to Saint-Petersburg</h3>
+                            <h4><a href="http://www.saintp.info" target='_blank'>www.saintp.info</a></h4>
+                            <p>
+                                This site encourages people from all over the world to visit Saint-Petersburg, because after the crisis in Russia it is extremely cheap and extremely awesome.                            </p>
+                            <small>May 2016</small>
                         </div>
                     </div>
+                    <footer class="card-footer">
+                        <p class="card-footer-item">
+                            <img src="img/logos/html5.png">
+                        </p>
+                        <p class="card-footer-item">
+                            <img src="img/logos/pug.svg">
+                        </p>
+                        <p class="card-footer-item">
+                            <img src="img/logos/css3.png">
+                        </p>
+                        <p class="card-footer-item">
+                            <img src="img/logos/sass.png">
+                        </p>
+                        <p class="card-footer-item">
+                            <img src="img/logos/js.png">
+                        </p>
+                        <p class="card-footer-item">
+                            <img src="img/logos/jquery.png">
+                        </p>
+                        <p class="card-footer-item">
+                            <img src="img/logos/gulp.png">
+                        </p>
+                        <p class="card-footer-item">
+                            <img src="img/logos/git.png">
+                        </p>
+                    </footer>
                 </div>
-                <div class="columns is-vcentered">
-                    <div class="column is-5 is-offset-1">
-                        <h3 class="subtitle is-4">
-                            Contact:
-                        </h3>
+            </div>
+
+        </div>
+        <div class="columns">
+            <div class="column is-one-third">
+                <div class="card is-fullwidth">
+                    <div class="card-image">
+                        <figure class="image is-16by9">
+                            <img src="img/olgakling.jpg" alt="Olga Kling">
+                        </figure>
+                    </div>
+                    <div class="card-content">
                         <div class="content">
-                            <p><a mailto="ps.force@gmail.com">ps.force@gmail.com</a></p>
-                            <p><a href="https://www.facebook.com/polyakusha"">facebook.com/polyakusha</a></p>
+                            <h3>Olga Kling</h3>
+                            <h4><a href="http://www.olgakling.de" target='_blank'>www.olgakling.de</a></h4>
+                            <p>
+                                Web-site for Olga Kling, moderator for weddings, birthdays and other special events from Germany. Aviable on German and Russian!
+                            </p>
+                            <small>October 2016</small>
+                        </div>
+                    </div>
+                    <footer class="card-footer">
+                        <p class="card-footer-item">
+                            <img src="img/logos/html5.png">
+                        </p>
+                        <p class="card-footer-item">
+                            <img src="img/logos/css3.png">
+                        </p>
+                        <p class="card-footer-item">
+                            <img src="img/logos/sass.png">
+                        </p>
+                        <p class="card-footer-item">
+                            <img src="img/logos/jquery.png">
+                        </p>
+                        <p class="card-footer-item">
+                            <img src="img/logos/git.png">
+                        </p>
+                    </footer>
+                </div>
+            </div>
+            <div class="column is-one-third">
+                <div class="card is-fullwidth">
+                    <div class="card-image">
+                        <figure class="image is-16by9">
+                            <img src="img/bucharest.jpg" alt="Welcome to Bucharest">
+                        </figure>
+                    </div>
+                    <div class="card-content">
+                        <div class="content">
+                            <h3>Welcome to Bucharest</h3>
+                            <h4><a href="http://www.bucharestcity.info" target='_blank'>www.bucharestcity.info</a></h4>
+                            <p>
+                                Another "because it's cheap" project. This time about my current living place - Bucharest, where you have warm and soft climate, awesome food, a very chilled atmosphere, mountains and the sea only in a bit more than 2 hours ride away.                            </p>
+                            <small>December 2016</small>
+                        </div>
+                    </div>
+                    <footer class="card-footer">
+                        <p class="card-footer-item">
+                            <img src="img/logos/html5.png">
+                        </p>
+                        <p class="card-footer-item">
+                            <img src="img/logos/pug.svg">
+                        </p>
+                        <p class="card-footer-item">
+                            <img src="img/logos/css3.png">
+                        </p>
+                        <p class="card-footer-item">
+                            <img src="img/logos/sass.png">
+                        </p>
+                        <p class="card-footer-item">
+                            <img src="img/logos/js.png">
+                        </p>
+                        <p class="card-footer-item">
+                            <img src="img/logos/jquery.png">
+                        </p>
+                        <p class="card-footer-item">
+                            <img src="img/logos/gulp.png">
+                        </p>
+                        <p class="card-footer-item">
+                            <img src="img/logos/git.png">
+                        </p>
+                    </footer>
+                </div>
+            </div>
+            <div class="column is-one-third">
+                <div class="card is-fullwidth">
+                    <div class="card-image">
+                        <figure class="image is-16by9">
+                            <img src="img/cn7eg.jpg" alt="My first web-site">
+                        </figure>
+                    </div>
+                    <div class="card-content">
+                        <div class="content">
+                            <h3>Ten years ago I made <a href="https://web.archive.org/web/20070108024104/http://cn7eg.narod.ru/main.html" target='_blank'>my first HTML project</a></h3>
+                            <p>
+                                This was my first HTML project, 10 years ago. With a design considered to be very fancy for those times.
+                            </p>
+                            <small>2006</small>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-</div>
+    </div>
 </section>
-</div>
-</body
+
+<section class="hero is-success">
+    <div class="hero-body">
+        <div class="container">
+            <h1 class="title">
+                Graphic design
+            </h1>
+            <h2 class="subtitle">
+                Something I am also interested in
+            </h2>
+        </div>
+    </div>
+</section>
+
+<section class="section">
+    <div class="container">
+        <div class="columns">
+            <div class="column is-one-third">
+                <div class="card is-fullwidth">
+                    <div class="card-image">
+                        <ul id="lightSlider">
+                            <li>
+                                <img src="img/visit1.jpg">
+                            </li>
+                            <li>
+                                <img src="img/visit2.jpg">
+                            </li>
+                            <li>
+                                <img src="img/visit3.jpg">
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="card-content">
+                        <div class="content">
+                            <h3>Business cards</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="column is-one-third">
+                <div class="card is-fullwidth">
+                    <div class="card-image">
+                        <ul id="lightSlider2">
+                            <li>
+                                <img src="img/invite.jpg">
+                            </li>
+                            <li>
+                                <img src="img/invite2.jpg">
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="card-content">
+                        <div class="content">
+                            <h3>Wedding invitations</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="column is-one-third">
+                <div class="card is-fullwidth">
+                    <div class="card-image">
+                        <ul id="lightSlider3">
+                            <li>
+                                <img src="img/poster1.jpg">
+                            </li>
+                            <li>
+                                <img src="img/poster2.jpg">
+                            </li>
+                            <li>
+                                <img src="img/poster3.jpg">
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="card-content">
+                        <div class="content">
+                            <h3>Posters</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="hero is-info">
+    <div class="hero-body">
+        <div class="container">
+            <h1 class="title">
+                Photography
+            </h1>
+            <h2 class="subtitle">
+                Shoot & draw
+            </h2>
+        </div>
+    </div>
+</section>
+
+<section class="section">
+    <div class="container">
+        <div class="columns">
+            <div class="column is-half">
+                <div class="card is-fullwidth">
+                    <div class="card-image">
+                        <ul id="lightSlider4">
+                            <li>
+                            <img src="https://scontent-frt3-1.xx.fbcdn.net/t31.0-8/14940010_10209714838001832_8272335472019726795_o.jpg">
+                            </li>
+                            <li>
+                            <img src="https://scontent-frt3-1.xx.fbcdn.net/t31.0-8/14468776_10209411645742215_2053753556102662777_o.jpg">
+                            </li>
+                            <li>
+                            <img src="https://scontent-frt3-1.xx.fbcdn.net/t31.0-8/14715469_10209579569420202_7455037303953760458_o.jpg">
+                            </li>
+                            <li>
+                                <img src="https://scontent-frt3-1.xx.fbcdn.net/t31.0-8/14714947_10209590766500122_6674618013693048850_o.jpg">
+                            </li>
+                            <li>
+                                <img src="https://scontent-frt3-1.xx.fbcdn.net/t31.0-8/14876697_10209653181580460_8309318329574807615_o.jpg">
+                            </li>
+                            <li>
+                                <img src="https://scontent-frt3-1.xx.fbcdn.net/t31.0-8/14889923_10209693150899668_7686054105582713966_o.jpg">
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="card-content">
+                        <div class="content">
+                            <h3>Cartoons</h3>
+                            <h4><a href="https://500px.com/sergeypoliakov" target='_blank'>Currently uploading on 500px</a></h4>
+                            <p>
+                                This project was presented during my personal presentation at the <a href="http://bucharestphotoweek.ro/2016/09/02/proiectie-the-city-as-a-living-system-o-prezentare-de-sergey-poliakov/">Bucharest Photo Week</a> and I am still working on it. I combined my passion for bad sketching with my professional photography.
+                            </p>
+                            <p>
+                                The object of my photography – is the city as a living system.
+                                The subject, that I’m trying to show is the beauty of everyday urban life.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="column is-half">
+                <div class="card is-fullwidth">
+                    <div class="card-image">
+                        <ul id="lightSlider5">
+                            <li>
+                                <img src="https://c1.staticflickr.com/9/8382/29031909320_f53915ee2b_b.jpg">
+                            </li>
+                            <li>
+                                <img src="https://c1.staticflickr.com/9/8078/28698913113_b0f84dba68_b.jpg">
+                            </li>
+                            <li>
+                                <img src="https://c1.staticflickr.com/9/8320/28698908603_aeb6c47223_b.jpg">
+                            </li>
+                            <li>
+                                <img src="https://c1.staticflickr.com/9/8494/28698891613_a2d8c149d9_b.jpg">
+                            </li>
+                            <li>
+                                <img src="https://c1.staticflickr.com/9/8167/29285923456_9b6f1faf2e_b.jpg">
+                            </li>
+                            <li>
+                                <img src="https://c1.staticflickr.com/9/8472/28696814134_f1212183b3_b.jpg">
+                            </li>
+
+                        </ul>
+                    </div>
+                    <div class="card-content">
+                        <div class="content">
+                            <h3>Street photography</h3>
+                            <h4><a href="http://www.sergeypoliakov.com/streetportfolio" target='_blank'>Check out my portfolio</a></h4>
+                            <p>
+                                I’ve been making street and travel pictures since 2009, always trying to find a style to express my moods and feelings while walking down the street. In 2016 I completed a personal retouching and photo-editing course from
+                                <a href="https://500px.com/efimshev"></a>Efim Shevchenko.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="hero is-danger">
+    <div class="hero-body">
+        <div class="container">
+            <h1 class="title">
+                Contacts
+            </h1>
+            <h2 class="subtitle">
+                How to get in touch with me
+            </h2>
+        </div>
+    </div>
+</section>
+
+<section class="section">
+    <div class="container">
+        <div class="columns">
+            <div class="column is-two-thirds">
+                <p>
+                    <a class="button is-medium" href="mailto:ps.force@gmail.com"><span class="icon">
+  <i class="fa fa-envelope-o"></i>
+</span>&nbsp;ps.force@gmail.com</a>
+                </p>
+                <br>
+                <p>
+                    <a class="button is-medium" href="https://ro.linkedin.com/in/sergey-poliakov-3335b4b1"><span class="icon">
+  <i class="fa fa-linkedin"></i>
+</span>&nbsp;Sergey Poliakov</a>
+                </p>
+                <br>
+                <p>
+                    <a class="button is-medium" href="https://github.com/polyakusha"><span class="icon">
+  <i class="fa fa-github"></i>
+</span>&nbsp;polyakusha</a>
+                </p>
+                <br>
+                <p>
+                    <a class="button is-medium" href="https://www.facebook.com/polyakusha"><span class="icon">
+  <i class="fa fa-facebook-square"></i>
+</span>&nbsp;polyakusha</a>
+                </p>
+                <br>
+                <p>
+                    <a class="button is-medium" href="https://www.instagram.com/polyakushka/"><span class="icon">
+  <i class="fa fa-instagram"></i>
+</span>&nbsp;polyakushka</a>
+                </p>
+            </div>
+            <div class="column is-one-third">
+                <div class="card is-fullwidth">
+                    <div class="card-content">
+                        <div class="content">
+                            <h3>Media about me and my work:</h3>
+                            <p>
+                                <a href="http://calvertjournal.com/news/show/6829">The Calvert Journal - "This Russian photographer is bored of street photos – so he decided to add cartoons"</a>
+                            </p>
+                            <p>
+                                <a href="https://www.facebook.com/BucharestPhotoWeek/photos/t.1056830870/570293293159520">Observator Cultural - Bucharest Photo Week</a>
+                            </p>
+                            <p>
+                                <a href="https://vimeo.com/170803703">Interview for #life78 about saintp.info</a>
+                            </p>
+                            <p>
+                                <a href="http://paperpaper.ru/papernews/2016/05/29/cheap-st-pete/">paperpaper.ru - "Programmer from Saint-Petersburg created a web-site with prices for city attractions in different currencies"</a>
+                            </p>
+                            <p>
+                                <a href="http://www.the-village.ru/village/city/petersburg-morning/237769-30-may#wtf_249661">The Village - "Cool project"</a>
+                            </p>
+                            <p>
+                                <a href="http://saintpetersburg.zagranitsa.com/story/10110/peterburzhets-sozdal-internetgid-s-gorodskimi-tsenami-v-raznykh-valiutakh">zagranitsa.com - "Petersburgian created an Internet-guide with city prices in different currencies"</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+
+
+
+</body>
+</html>
