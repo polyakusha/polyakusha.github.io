@@ -43,3 +43,18 @@ a {
 .userpic {
     border-radius: 15% 50% 30% 25%;
 }
+
+.is-free {
+    background: #97cd76;
+    color: white;
+}
+
+.is-busy {
+    background: #e84135;
+    color: white;
+}
+
+.not-sure {
+    background: #fce473;
+    color: white;
+}
